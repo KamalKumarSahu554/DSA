@@ -44,8 +44,8 @@ int main()
 
   // # Operators
   int a = 10, b = 3;
+  
   // 1. Arithmetic
-
   int sum = a + b;
   int difference = a - b;
   int product = a * b;
