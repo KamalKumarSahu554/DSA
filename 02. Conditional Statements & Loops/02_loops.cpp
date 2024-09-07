@@ -59,7 +59,7 @@ int main()
     // cout << "Non prime number";
   }
 
-  // # Nasted Loop
+  // # Nasted Loop 
   int x = 3, y = 2;
   for (int i = 0; i < x; i++)
   {
