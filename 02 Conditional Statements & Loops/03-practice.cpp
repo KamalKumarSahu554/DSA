@@ -16,6 +16,7 @@ int main()
     }
   }
   // cout << sum;
+
   // 2. Print factorial of a number N.
   int facto = 1;
   for (int i = 1; i <= n; i++)
