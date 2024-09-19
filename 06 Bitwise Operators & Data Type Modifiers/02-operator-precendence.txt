@@ -1,0 +1,16 @@
+Operator Precedence (Highest to Lowest):
+
+1. Parentheses `( )`                 - Left-to-right
+2. Unary: `++`, `--`, `+`, `-`, `!`, `~` - Right-to-left
+3. Multiplicative: `*`, `/`, `%`    - Left-to-right
+4. Additive: `+`, `-`               - Left-to-right
+5. Bitwise Shift: `<<`, `>>`        - Left-to-right
+6. Relational: `<`, `<=`, `>`, `>=` - Left-to-right
+7. Equality: `==`, `!=`             - Left-to-right
+8. Bitwise AND: `&`                 - Left-to-right
+9. Bitwise XOR: `^`                 - Left-to-right
+10. Bitwise OR: `|`                 - Left-to-right
+11. Logical AND: `&&`               - Left-to-right
+12. Logical OR: `||`                - Left-to-right
+13. Ternary: `?:`                   - Right-to-left
+14. Assignment: `=`, `+=`, `-=`, `*=`, `/=`, etc. - Right-to-left
