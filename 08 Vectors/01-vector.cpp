@@ -16,7 +16,18 @@ using namespace std;
 
 int main()
 {
-  vector<int> vec(3, 8);
-  cout << vec[1];
+  // # Vector Syntax;
+  // vector<int> vec(5, 1);
+  // vector<char> vec = {'q', 'w', 'u', 'h'};
+  // cout << vec[1];
+
+  vector<int> vec(10, 10);
+  int sum = 0;
+  // for each loop
+  for (int val : vec)
+  {
+    sum += val;
+  }
+  cout << sum;
   return 0;
 }

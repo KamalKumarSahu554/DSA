@@ -33,7 +33,7 @@ int main()
   cout << "index : " << idx << endl;
 
   // Largest in the array
-  int largest = INT_MIN;
+  int largest = INT16_MIN;
   for (int i = 0; i < size; i++)
   {
     if (arr[i] > largest)

@@ -166,7 +166,7 @@ void fibonacci(int n)
 int main()
 {
   int a = 98, b = 50, n = 20, r = 3;
-  // cout << "Minimum number is : " << minOfTwo(a, b);
+  cout << "Minimum number is : " << minOfTwo(a, b);
   // cout << "Sum of numbers : " << sumOfNums(n);
   // cout << "factorial of " << n << " is : " << factorial(n);
   // cout << "Sum of digits of " << n << " : " << sumOfDigit(n);
